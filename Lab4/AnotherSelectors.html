@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  
+  <title> Опис предметного середовища </title>
+    <link rel="stylesheet" type="text/css" href="AnotherSelectors.css"> 
+  <link rel="stylesheet" type="text/css" href="Style.css">  
+</head>
+<body>
+<h1> ЗВІТИ З ЛАБОРАТОРНИХ РОБІТ <br> З ДИСЦИПЛІНИ "ІНТЕРНЕТ ТЕХНОЛОГІЇ ТА ПРОЕКТУВАННЯ WEB-ЗАСТОСУВАНЬ" </h1>
+<h2>  БРИГАДА №4 Студенти групи ІС-01: Боярчук М., Клеба О., Копайгордська Д., Трачук Ю. </h2>
+  <table style="width:100%">
+    <tr class="Labs">
+      <th class="Labs"><a href="Lab1.html">Lab1</a></th>
+      <th class="Labs"><a href="Lab2.html">Lab2</a></th>
+      <th class="Labs"><a href="Lab3.html">Lab3</a></th>
+      <th class="Labs"><a href="Lab4.html">Lab4</a></th>
+      <th class="Labs"><a href="Lab5.html">Lab5</a></th>
+      <th class="Labs"><a href="Lab6.html">Lab6</a></th>
+    <th class="Labs"><a href="Lab7.html">Lab7</a></th>
+      <th class="Labs"><a href="Lab8.html">Lab8</a></th>
+      <th class="Labs"><a href="Lab9.html">Lab9</a></th>
+     </tr>
+  </table>
+  <table>
+    <tr>
+      <td class="LeftBlock">
+        <dl>
+          <dt class="Labs"><a href="Description_2.html"> ПОСТАНОВКА ЗАДАЧІ <br> лабoраторної №2 </a></dt>
+        </dl>
+        <dl>
+          <dt class="Labs"><a href="Lists.html">Списки</a></dt>
+        </dl>
+        <dl>
+          <dt class="Labs"><a href="Background.html"> Фон  </a></dt>
+        </dl>
+    <dl>
+          <dt class="Labs"><a href="Identifier.html">Ідентифікатори</a></dt>
+        </dl>
+    <dl>
+          <dt class="Labs"><a href="Indents.html">Відступи</a></dt>
+        </dl>
+    <dl>
+          <dt class="Labs"><a href="FloatingElements.html">Плаваючі елементи</a></dt>
+        </dl>
+        <dl>
+          <div class="list">
+           <dt class="Labs">СЕЛЕКТОРИ</dt>
+           <div class="element-of-the-list">
+             <a href="SelectorClassAndTeg.html">Селектори тегу і класу </a>
+             <a href="AnotherSelectors.html">Інші селектори </a>
+             <a href="GroupSel.html">Групування селекторів</a>
+           </div>
+         </div>
+       </dl>
+       <dl>
+          <dt class="Labs"><a href="Conclusion_2.html">ВИСНОВКИ </a></dt>
+        </dl>
+     </td>
+
+     <td>
+      <div class="MainBlock">
+      <p><b>Дочірні селектори</b></p>
+      <style>
+       DIV I { 
+        color: blue; 
+       }
+       P > I { 
+        color: purple; 
+       }
+      </style>
+      <body>
+      <div>
+       <p><i>Ван Гог не відрізав собі вухо.</i> А ось мочку вуха він собі все-таки ампутував.</p>
+      <p><i>Леонардо да Вінчі</i> був вегетаріанцем.</p>
+      <p>Одним з найбільш ексцентричних художників можна назвати Сальвадора Далі. Він любив шокувати людей. А одного разу <i>він заявився на виставку у водолазному костюмі.</i></p>
+      <img src = "16.png" wigth = "90"  height = "60">
+      <p>
+      <img src = "17.png" wigth = "200"  height = "100">
+      <p><mark>Колір тексту, заданий за допомогою дочірнього селектора</mark></p>
+      <p><b>Універсальні селектори</b></p>
+    </body>
+      <style>
+       * { 
+        font-family: Arial, Verdana, sans-serif; 
+        font-size: 98%; 
+       } 
+      </style> 
+      <body> 
+      <p>Знаменитий художник Пабло Пікассо в молодості був дуже бідний. Одного разу йому навіть довелося топити піч власними картинами, <br>тому що у нього не було грошей на дрова.
+      Повне ім’я Пікассо складається з 23 слів.<br>
+      Картина Анрі Матісса “човен” одного разу провисіла догори ногами на виставці півтора місяці, поки хтось не помітив помилку..</p> 
+      <img src = "18.png" wigth = "200"  height = "100">
+      <p><mark>Один стиль встановлено для всіх елементів за допомогою універсального селектора</mark></p>
+      </body> 
+      <p><b>Сусідні селектори</b></p>
+      <style>
+       B + I {
+        color: red; /* Красный цвет текста */
+       }
+      </style>
+      <body>
+       <p>За життя Вінсент Ван Гог продав,<b>всупереч поширеному міфу</b> не одну картину <i>а набагато більше. </i> Але отримував він за свої полотна зовсім мало грошей.</p>
+       <p>Документально підтверджено  <i>продаж не менше </i> 14 картин.</p>
+       <img src = "20.png" wigth = "80"  height = "50">
+       <p><img src = "21.png" wigth = "80"  height = "80">
+       <p><mark>Виділення тексту кольором за допомогою сусідніх селекторів</mark></p>
+     </body>
+      </div>
+     </body>
+        </div>
+      </td>
+    </tr>
+  </table>
+</body>
+</html>
