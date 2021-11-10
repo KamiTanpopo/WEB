@@ -1,0 +1,24 @@
+
+.alignleft {
+    float: left;
+    margin-right: 10px;
+}
+.alignright {
+    float: right;
+    margin-left: 10px;
+}
+.alignnone {
+    float: none;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.noLeft
+{
+	clear: left;
+}
+ul{list-style-type: square;}
+ol{color: navy;}
+
+div{color:red;}
+div.green{color:green;}
+.newColor{color: blue;}

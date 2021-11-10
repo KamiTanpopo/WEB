@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title>Текстовый редактор</title>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <style src="text.css">
+      </style>
+    </head>
+    <body>
+
+     <h2>Текстовий редактор </h2>
+     <div class="theme_menu">
+        <button class ="th t1" onclick="bolt()">Напівжирний</button>
+        <button class ="th t2" onclick="italic()">Курсив</button>
+        <button class ="th t3" onclick="underline()">Підкреслення</button>
+
+        <label>Колір Тексту:</label>
+         <input type="color" onchange="document.execCommand ('foreColor', false, this.value);"/>  
+         <select onchange="document.execCommand ('fontName', false, this.value);">
+            <option value="Times New Roman">Times New Roman</option>
+            <option value="Arial">Arial</option>
+            <option value="Tahoma">Tahoma</option>
+            </select>
+   </div>
+     <div id="editor" contenteditable="true"
+          style="height: 50%; width: 100%; border: solid; border-width: 1px; text-align: left">
+          <p id="text"></p>
+    </div>
+       <script src ="app_js.js"></script>
+    </body>
+</html>  
+
+
+
