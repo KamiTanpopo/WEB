@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style_cin.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+        <title>Кінотеатр</title>
+        <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.0/themes/base/jquery-ui.css">
+        <link rel="stylesheet" href="/resources/demos/style.css">
+        <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+        <script src="https://code.jquery.com/ui/1.13.0/jquery-ui.js"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/unitegallery/1.7.40/js/unitegallery.min.js"></script>
+		<link rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/unitegallery/1.7.40/css/unite-gallery.min.css"
+		/>
+		<link rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/unitegallery/1.7.40/themes/default/ug-theme-default.min.css"
+		/>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/unitegallery/1.7.40/themes/default/ug-theme-default.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/unitegallery/1.7.40/themes/slider/ug-theme-slider.min.js"></script>
+    
+    </head>
+    <body>
+        <header class="header">
+            <div class= "top_menu">
+                <div class ="menu_all">
+                    <div class="drop_menu">
+                        <div class="header_burger">
+                            <span></span>
+                        </div>
+                        <nav class="header_menu_list">
+                            <ul class="header_list">
+                                <li class="item"> <a href="cinema.html" class ="header_link">Повернутися назад</a> </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class ="btn">
+                        <a  class ="theme" href="#" >Тема</a>
+                        <div class="theme_menu">
+                            <button class ="th t1" onclick="changeColor('#C0C0C0')">Світла</button>
+                            <button class ="th t2" onclick="changeColor('#000')">Темна</button>
+                            <button class ="th t3" onclick="changeColor('#252B32')">Стандартна</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="links">
+                    <div > <a href='#'  onclick="shareOnLinked('facebook')"> <img src="facebook.png" height="45px"> </a>  </div>
+                    <div > <a href='#'  onclick="shareOnLinked('instagram')">  <img src="instagram.png" height="45px"></a>  </div>
+                    <div > <a href='#'  onclick="shareOnLinked('twitter')"> <img src="twitter.png" height="45px"> </a>  </div>
+                    <div > <a href='#'  onclick="shareOnLinked('pinterest')"> <img src="pinterst.png" height="45px"> </a>  </div>
+                    </div>
+            </div>
+
+            <div class="header_top" style="height: 100px;">
+                <div class="header_text" style="font-size: 30px;">
+                    <h2>Найкращі кадри з фільмів</h2>
+                </div>
+            </div>
+                <div id="gallery">
+                    <img src="kadr1.png">
+                    <img src="kadr2.jpg">
+                    <img src="kadr3.jpg">
+                    <img src="kadr4.jpg">
+                    <img src="kard5.jpg">
+                </div>
+        </header>
+        
+        <script src ="cite_js.js"> </script>
+      
+    </body>
+</html>

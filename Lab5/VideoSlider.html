@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style_cin.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+        
+        <title>Кінотеатр</title>
+        
+        <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.0/themes/base/jquery-ui.css">
+        <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+               
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/unitegallery/1.7.40/js/unitegallery.min.js"></script>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/unitegallery/1.7.40/css/unite-gallery.min.css"
+		/>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/unitegallery/1.7.40/themes/slider/ug-theme-slider.min.js"></script>
+
+    </head>
+    <body>
+        <header class="header">
+            <div class= "top_menu">
+                <div class ="menu_all">
+                    <div class="drop_menu">
+                        <div class="header_burger">
+                            <span></span>
+                        </div>
+                        <nav class="header_menu_list">
+                            <ul class="header_list">
+                                <li class="item"> <a href="cinema.html" class ="header_link">Повернутися назад</a> </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class ="btn">
+                        <a  class ="theme" href="#" >Тема</a>
+                        <div class="theme_menu">
+                            <button class ="th t1" onclick="changeColor('#C0C0C0')">Світла</button>
+                            <button class ="th t2" onclick="changeColor('#000')">Темна</button>
+                            <button class ="th t3" onclick="changeColor('#252B32')">Стандартна</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="links">
+                    <div > <a href='#'  onclick="shareOnLinked('facebook')"> <img src="facebook.png" height="45px"> </a>  </div>
+                    <div > <a href='#'  onclick="shareOnLinked('instagram')">  <img src="instagram.png" height="45px"></a>  </div>
+                    <div > <a href='#'  onclick="shareOnLinked('twitter')"> <img src="twitter.png" height="45px"> </a>  </div>
+                    <div > <a href='#'  onclick="shareOnLinked('pinterest')"> <img src="pinterst.png" height="45px"> </a>  </div>
+                    </div>
+            </div>
+
+            <div class="header_top a" style="height: 100px;">
+                <div class="header_text b" style="font-size: 30px;">
+                    <h2>Трейлери фільмів</h2>
+                </div>
+            </div>
+                <div id="gallery">
+                    <div
+                        data-type="youtube"
+                        data-videoid="B9H3ya_XNT0"
+                        data-title="Час"
+                        data-description="Трейлер до фільму 'Час'"
+                    ></div>
+					<div
+                        data-type="youtube"
+                        data-videoid="_oboseJViww"
+                        data-title="Вічні"
+                        data-description="Трейлер до фільму 'Вічні'"
+                    ></div>
+					<div
+                        data-type="youtube"
+                        data-videoid="a4Yur6CsRz4"
+                        data-title="Червоне сповіщення'"
+                        data-description="Трейлер до фільму 'Червоне сповіщення'"
+                    ></div>
+                </div>
+        </header>
+        
+        <script src ="cite_js.js"> </script>
+        
+    </body>
+</html>
