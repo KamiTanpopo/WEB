@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CoverVid</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <style src = "UsePlugin.css"></style>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script> 
+    <script src="covervid.min.js"></script>
+	
+</head>
+<body>
+    <div class="backgr">
+		<video class="backgr-video" autoplay loop muted>
+			<source src="dreamscapes.mp4" type="video/mp4">
+			<source src="dreamscapes.webm" type="video/webm">
+		</video>
+	</div>
+		<script type="text/javascript">
+			$('.backgr-video').coverVid(1920, 1080); // використовуючи рідні розміри відео.
+		</script>	
+</body>
+</html>
