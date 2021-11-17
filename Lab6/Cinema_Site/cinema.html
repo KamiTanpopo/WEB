@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style_cin.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+        <title>Кінотеатр</title>
+        <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.0/themes/base/jquery-ui.css">
+        <link rel="stylesheet" href="/resources/demos/style.css">
+        <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+        <script src="https://code.jquery.com/ui/1.13.0/jquery-ui.js"></script>
+        
+        <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+        <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/unitegallery/1.7.40/js/unitegallery.min.js"></script>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/unitegallery/1.7.40/css/unite-gallery.min.css"
+		/>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/unitegallery/1.7.40/themes/slider/ug-theme-slider.min.js"></script>
+
+    </head>
+    <body>
+        <div id="dialog" title="Умови відвідування під час карантину">
+            <h5>Через карантинні обмеження вхід за одним з наступних документів:</h5>
+            <ul>
+                <li><a>"Зелений" сертифікат вакцинації</a></li>
+                <li><a>Негативний ПЛР тест, зроблений не більш як за 72 години до відвідування</a></li>
+                <li><a>Довідка про перенесену хворобу COVID-19</a></li>
+                </ul>
+          </div>
+
+        <header class="header">
+            <div class= "top_menu">
+                <div class ="menu_all">
+                    <div class="drop_menu">
+                        <div class="header_burger">
+                            <span></span>
+                        </div>
+                        <nav class="header_menu_list">
+                            <ul class="header_list">
+                                <li class="item"> <a href="VideoSlider.html" class ="header_link">VideoSlider</a> </li>
+                                <li class="item"> <a href="PhotoGallery.html" class ="header_link">PhotoGallery</a> </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class ="btn">
+                        <a  class ="theme" href="#" >Тема</a>
+                        <div class="theme_menu">
+                            <button class ="th t1" onclick="changeColor('#C0C0C0')">Світла</button>
+                            <button class ="th t2" onclick="changeColor('#000')">Темна</button>
+                            <button class ="th t3" onclick="changeColor('#252B32')">Стандартна</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="links">
+                    <div > <a href='#'  onclick="shareOnLinked('facebook')"> <img src="facebook.png" height="45px"> </a>  </div>
+                    <div > <a href='#'  onclick="shareOnLinked('instagram')">  <img src="instagram.png" height="45px"></a>  </div>
+                    <div > <a href='#'  onclick="shareOnLinked('twitter')"> <img src="twitter.png" height="45px"> </a>  </div>
+                    <div > <a href='#'  onclick="shareOnLinked('pinterest')"> <img src="pinterst.png" height="45px"> </a>  </div>
+                    </div>
+            </div>
+                <div class="header_top">
+                    <div class="header_text">
+                        <h1>Кінотеатр</h1>
+                    </div>
+                </div>
+                <div class="header_menu">
+                    <div class="item i1"><a href="#" >15.11</a></div>
+                    <div class="item i2"><a href="#" >16.11</a></div>
+                    <div class="item i3"><a href="#" >17.11</a></div>
+                    <div class="item i4"><a href="#" >18.11</a></div>
+                    <div class="item i5"><a href="#" >19.11</a></div>
+                    <div class="item i6"><a href="#" >20.11</a></div>
+                    <div class="item i7"><a href="#" >21.11</a></div>
+                </div>
+                
+                <div class="autoplay" id="gallery">
+                    <img class="film f1" src="img1.jpeg" data-toggle="tooltip" data-placement="bottom" title="До кінця прокату 2 дні">
+                    <img class="film f2" src="img2.jpeg" data-toggle="tooltip" data-placement="bottom" title="До кінця прокату 3 дні">
+                    <img class="film f3" src="img3.jpeg" data-toggle="tooltip" data-placement="bottom" title="До кінця прокату 3 дні">
+                    <img class="film f4" src="img4.jpeg" data-toggle="tooltip" data-placement="bottom" title="До кінця прокату 1 день">
+                    <img class="film f5" src="img5.jpeg" data-toggle="tooltip" data-placement="bottom" title="До кінця прокату 2 дні">
+                    <img class="film f6" src="img6.jpeg" data-toggle="tooltip" data-placement="bottom" title="До кінця прокату 1 день">
+                </div>
+
+                <div class="tabs">
+                    <a >Технології кінотеатру</a>
+                       <ul class="tabs__caption">  
+                         <li class="active">  Screen X </li>
+                         <li> 3D </li>
+                       </ul>
+                       
+                       <div class="tabs__content active">
+                        <a> Кіно з додатковими сценами на 270 градусів <br> </a>
+                         <center>
+                            <img   src= "screenX.jpg"  height ="500px">
+                         </center>
+                     </div>
+                     
+                     <div class="tabs__content">
+                        <a> Cеанс з залученням технологій об’ємного зображення для прихильників видовищних спец ефектів<br></a>
+                         <center>
+                             <img   src= "3D.jpg" height="500px">
+                         </center>
+                          
+                    </div>
+                       
+                </div><!-- .tabs-->
+
+        </header>
+        <script src ="cite_js.js"> </script>
+    </body>
+</html>
