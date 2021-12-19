@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style_cin.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+        <title>Кінотеатр</title>
+    </head>
+    <body>
+        <header class="header">
+                 <div class="header_top">
+                     <div class ="btn">
+                        <a  class ="theme" href="#" >Тема</a>
+                        <div class="theme_menu">
+                             <button class ="th t1" onclick="changeColor('#C0C0C0')">Світла</button>
+                             <button class ="th t2" onclick="changeColor('#000')">Темна</button>
+                             <button class ="th t3" onclick="changeColor('#252B32')">Стандартна</button>
+                        </div>
+
+                     </div>
+                    <div class="header_text">
+                        <h1>Кінотеатр</h1>
+                    </div>
+                </div>
+                <div class="header_menu">
+                    <div class="item i1"><a href="#" >25.10</a></div>
+                    <div class="item i2"><a href="#" >26.10</a></div>
+                    <div class="item i3"><a href="#" >27.10</a></div>
+                    <div class="item i4"><a href="#" >28.10</a></div>
+                    <div class="item i5"><a href="#" >29.10</a></div>
+                    <div class="item i6"><a href="#" >30.10</a></div>
+                    <div class="item i7"><a href="#" >31.10</a></div>
+                </div>
+                <div class="film_list">
+                    <div class="film f1"> <img class="f1 img" src ="img1.jpeg" ></div>
+                    <div class="film f2"> <img class="f2 img" src= "img2.jpeg"></div>
+                    <div class="film f3"> <img class="f3 img" src= "img3.jpeg"></div>
+                    <div class="film f4"> <img class="f4 img" src= "img4.jpeg"></div>
+                    <div class="film f5"> <img class="f5 img" src= "img5.jpeg"></div>
+                    <div class="film f6"> <img class="f6 img" src= "img6.jpeg"></div>
+                     
+                </div>
+
+                <div id="showlink"> </div>  
+        </header>
+        <script src ="cite_js.js"> 
+        function startIThrown(){
+              document.location = 'ithrown://restart';
+              setTimeout(function(){
+                if(confirm('You do not seem to have iThrown installed, do you want to go download it now?')){
+                  document.location = 'http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewSoftware?id=293049283&mt=8&uo=6';
+                }
+              }, 300);
+            }
+
+        </script>
+        <br>
+        <a href="#" onclick="startIThrown()">Restart iThrown</a>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div id="myLink"> За цим посиланням Ви без трудностей можете знайти кінотеатр  </div>
+        <script type="text/javascript">
+                var div = document.getElementById('myLink');
+                var e    = document.createElement('a');
+                e.href = 'https://www.google.com.ua/maps/@50.4851493,30.4721233,14z?hl=ru';
+                e.title = 'GOOGLE MAPS';
+                e.appendChild(document.createTextNode('GOOGLE MAPS'));
+                div.appendChild(e);
+        </script>
+        <br>
+
+<br><br>
+        <script>
+        function getURL() {
+            alert("The URL of this page is: " + window.location.href);
+        }
+        </script>
+        <button type="button" onclick="getURL();">Get Page URL</button>
+        <br>
+
+<br>
+<br>
+        <script>
+        function show() {
+            alert("Перший український мультфільм — «Казка про солом'яного бичка» (1927). На сьогодні він вважається втраченим. Від фільму залишилися тільки кадри, надруковані в журналах, газетах і книгах. ");
+        }
+        </script>
+         <br> 
+         <br>
+         <br>
+        <button type="button" onclick="show();">Click here</button>
+        <br><br><br>
+        <input type="button" onclick="location.href='https://google.com';" value="Go to Google" />
+       
+      
+    </body>
+</html>
