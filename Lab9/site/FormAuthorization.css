@@ -1,0 +1,72 @@
+body{
+  background: #000;
+
+}
+h3{
+    font-family: serif;
+        color:#ffffff;
+    font-size: 20px;
+    text-align: center;
+}
+
+form {
+    background-color:#000;
+    /* положення по центру */
+    margin:70px auto;
+    width: 400px;
+    /* контур форми */
+    padding: 1em;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 1em;
+    color:#ffffff;
+  }
+  a {
+    color: rgb(255, 255, 255); /* Цвет ссылок */
+    text-align: center;
+   }
+   a:visited {
+    color: #ffffff; /* Цвет посещенных ссылок */
+   }
+   a:active {
+    color: #ffffff; /* Цвет активных ссылок */
+   }
+   a:hover{
+    color: rgb(146, 49, 49); /* Цвет активных ссылок */
+   }
+   
+  label {
+    /* розмір і вирівнювання */
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+  }
+  
+  input,
+  textarea {
+    font: 1em sans-serif;
+    /* розмір поля */
+    width: 300px;
+    box-sizing: border-box;
+    /* стиль границі */
+    border: 1px solid rgb(255, 255, 255);
+  }
+  input:focus, textarea:focus {
+    /* підвсвічення */
+    border-color: #000;
+  }
+.validateBtn{
+  padding: 0px;
+  margin: 10px 50px;
+  position: center;
+}
+  textarea {
+    /* вирівнюємо */
+    vertical-align: top;
+    border-radius: 1em;
+
+    /* для вводу текста */
+    height: 5em;
+  }
+  span{
+    color: red;
+  }

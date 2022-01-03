@@ -1,0 +1,411 @@
+
+.top_menu{
+    height: 60px;
+    background-color: #252B32;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    width:99%;
+}
+.menu_all{
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+    justify-content:space-between;
+}
+.links{
+    display:flex;
+    padding: 0px 10px;
+    align-self:center;
+}
+.header_top{
+ background-image: url('https://cdn.pixabay.com/photo/2017/11/24/10/43/ticket-2974645_1280.jpg');
+background-repeat: no-repeat;
+background-size:cover;
+background-position: center;
+height: 55vh;
+padding: 40px;
+}
+body{
+    background-color: #252B32;
+}
+.header_text{
+    font-family: 'Roboto Condensed', sans-serif;
+    color:rgb(255, 255, 255);
+    font-size: 60px;
+    text-align: center;
+}
+
+.header_menu{
+    display:flex;
+    list-style-type: none; 
+    margin: 20px;
+    flex-wrap:wrap;
+    justify-content:space-around;
+   
+}
+.regButton {
+    font-family:  'Roboto Condensed', sans-serif;
+    color:rgb(255, 255, 255);
+    font-size: 18px;
+    text-align: center;
+    background: none;
+    border: none;
+    /* border: 1px solid #ccc;
+    border-radius: 3px; */
+    padding: 10px 24px;
+    margin: 5px 0 10px 0;
+    cursor: pointer;
+
+
+}
+.EchoText{
+    font-family:  'Roboto Condensed', sans-serif;
+    color:rgb(255, 255, 255);
+    font-size: 18px;
+    text-align: center;
+}
+.regButton:hover {
+    background: rgb(75, 65, 65);
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+.userButton{
+    padding: 0px 5px;
+    border: none;
+    margin: 5px 0 10px 0;
+    cursor: pointer;
+    background-color: none;
+    background: none;
+}
+.userButton:hover {
+    background: rgb(75, 65, 65);
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+a {
+    color: rgb(255, 255, 255); /* Цвет ссылок */
+   }
+   a:visited {
+    color: #ffffff; /* Цвет посещенных ссылок */
+   }
+   a:active {
+    color: #ffffff; /* Цвет активных ссылок */
+   }
+   a:hover{
+    color: rgb(146, 49, 49); /* Цвет активных ссылок */
+   }
+.close{
+    margin: 10px 0 0 400px;
+    cursor: pointer;
+    /* border: 1px solid #ccc;  */
+    padding: 2px; 
+    background: black;} 
+    .close:hover{
+    background: rgb(190, 186, 186);} 
+.text1{
+    margin-bottom: 10px;
+    margin-top: auto;
+
+    font-family: 'Roboto Condensed', sans-serif;
+    color:rgb(255, 255, 255);
+    font-size: 14px;
+    text-align: center;
+}
+.text2{
+    margin-bottom: 10px;
+    margin-top: auto;
+
+    font-family: 'Roboto Condensed', sans-serif;
+    color:rgb(255, 255, 255);
+    font-size: 20px;
+    text-align: center;
+}
+
+#window {
+    width: 433px;
+    height: 60px;
+    margin: 10% auto auto auto;
+    background: rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 15px;
+    z-index:150; display: none;
+     position: fixed; left: 0;right: 0;top:0;bottom: 0;
+}
+#window2 {
+    width: 433px;
+    height: 60px;
+    margin: 10% auto auto auto;
+    background: rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 15px;
+    z-index:150; display: none;
+     position: fixed; left: 0;right: 0;top:0;bottom: 0;
+}
+
+
+#gray{opacity: 0.8; padding: 15px;
+    background-color: rgba(1,1,1,0.75); position: fixed; left: 0;right: 0;top:0;bottom: 0; display: none; z-index:100; overflow: auto; } 
+  .UserAccount{
+    margin-right: 10px ;
+    margin-left: 10px ;
+    padding-left: 0px;
+    padding-right: 5px ;
+}
+.logo
+{
+	
+	width: 100px ;
+	height:70px ;
+	margin: 10px 2px;
+	padding: 0px 2px;
+}
+.Imax{
+    width: 150px ;
+	height:70px ;
+    padding: 0px 0px 10px 1px;
+	margin: 0px 0px 10px 0px;
+    float: center;
+    text-align:center;
+   color: #ffffff;
+}
+.Space{
+	width: 550px;
+}
+.MasterCardText
+{
+
+	width: 130px;
+	height: 50px;
+    padding: 5px 0px 5px 0px;
+	margin: 5px 0px 5px 0px;
+	text-decoration:none;
+	text-align: center;
+	color: #c75454;
+	font-size: 16px;
+	font-weight: bold;
+}
+.TextSignUp{
+    width: 40px;
+	height: 40px;
+    padding: 0px 5px 10px 0px;
+	margin: 0px 5px 10px 0px;
+	text-decoration:none;
+	color: #ffffff;
+	font-size: 16px;
+	font-weight: bold;
+}
+.vl {
+    border-left: 1px solid white;
+    height: 30px;
+	padding: 3px 10px;
+    margin-left: 2px;
+	margin-right: 2px;
+    margin-top: 5px;
+    margin-bottom: 3px;
+}
+ .TextGeo{
+	width: 200px;
+	height: 40px;
+    padding: 0px 6px 10px 0px;
+	margin: 0px 5px 10px 0px;
+	text-decoration:none;
+	color: #ffffff;
+	font-size: 16px;
+	font-weight: bold;
+}
+ .MasterCardHeader{
+    padding: 10px 0px 10px 5px;
+	margin: 0px   0px 0px 30px;
+    color: #ffffff; 
+
+}
+
+.item{
+    margin: 20px 0;
+    padding: 20px 30px;
+    border: #252B32 solid 1px;
+}
+.item a{
+    color:rgb(255, 255, 255);
+    font-family: 'Roboto Condensed', sans-serif;
+    font-style: bold;
+    text-decoration: none;
+}
+
+.item:hover{
+    border:rgb(255, 255, 255) solid 1px;
+    border-radius: 10px;
+}
+.item:hover a{
+    color: #943a46;
+}
+.film_list{
+    border-top: #475158 solid 1px;
+    border-bottom:  #475158 solid 1px;
+    display: flex;
+    flex-wrap:wrap;
+    margin: 20px;
+    justify-content:space-around;
+}
+.film{
+    margin:40px;
+}
+.btn {
+	position: relative;
+	display: block;
+    align-self:center;
+}
+.theme_menu {
+	display: none;
+    height: 300px;
+    position: absolute;
+}
+.btn button {
+	padding: 10px;
+	display: block;
+}
+.theme{
+    margin-bottom: 10px;
+ }
+ .btn button{
+    background-color: #943a46;
+    border: none;
+    color: white;
+    text-align: center;
+    align-items:flex-start;
+    text-decoration: none;
+    font-size: 16px;
+    display:flex;
+    flex-direction:column;
+    width: 100px;
+
+}
+a.theme{
+    background: #943a46;
+    text-decoration: none;
+    color: #fff;
+    padding:5px 10px;
+    border:rgb(255, 255, 255) solid 1px;
+    border-radius: 5px;
+ }
+.btn:hover
+.theme_menu
+{
+	display: block;
+}
+.drop_menu ul li{
+    list-style: none;
+}
+.drop_menu ul a{
+    color:#fff;
+    padding: 10px;
+    padding-right: 20px;
+}
+.header_burger{
+    width: 30px;
+    height: 20px;
+    position:relative;
+    align-self:center;
+    margin: 0px 20px;
+}
+.header_burger::before, 
+.header_burger::after
+{
+content: ' ';
+background-color: #fff;
+position:absolute;
+width:100%;
+height: 2px;
+left:0;
+}
+.header_burger span{
+ background-color: #fff;
+position:absolute;
+width:100%;
+height: 2px;
+left:0;
+top: 9px;
+}
+
+.header_menu_list{
+    background-color:#475158 ;
+    left:0;
+    display:flex;
+    display: none;
+    text-align: center;
+}
+.header_burger::before{
+    top:0;
+
+}
+.header_burger::after{
+    bottom: 0;
+}
+.header_list{
+    display:block;
+}
+.header_list li{
+    margin:0px 40px 20px 0px;
+}
+.header_burger.active::before{
+    transform:rotate(45deg);
+    top:9px;
+}
+.header_burger.active::after{
+    transform:rotate(-45deg);
+    bottom:9px;
+
+}
+.header_burger.active span{
+    transform: scale(0);
+}
+.header_menu_list.active{
+    display:block;
+}
+#gallery{
+    display:flex;
+	margin: auto;
+}
+
+#galleria{
+    width:800px;
+    height:400px;
+    margin:20px auto 0 auto;
+    background:#222;
+    background:-moz-radial-gradient(center 45deg, circle closest-side, #222 40%, #000 100%);
+    background:-webkit-gradient(
+    radial, center 50%, 20, center 50%, 250, from(#333), to(#000)
+     )
+}
+
+
+.slick-prev{
+    cursor: pointer;
+    left: 0;
+    background: url('left.png') 0 0 / 100% no-repeat;
+}
+
+.slick-next{
+    cursor: pointer;
+    right: 0;
+    background: url('right.png') 0 0 / 100% no-repeat;
+}
+.slick-arrow{
+    position: absolute;
+    top: 50%;
+    z-index: 10;
+    font-size: 0;
+    width: 30px;
+    height: 50px;
+    border: none;
+}
+
+.links{
+    margin:10px;
+    padding:10px;
+}
+
+.com{
+    color:#fff;
+}
